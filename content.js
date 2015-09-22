@@ -20,6 +20,7 @@ var telephonised = function(){
 	var phoneNodes = jQuery('.phone-number:not(.telephonised)');
 	jQuery.each(phoneNodes, function(index, phoneNode){
 		var parent = jQuery( phoneNode );
+        parent.addClass('telephonised');
 		var number = parent.html().replace(/\s/g, '');
 		var span = document.createElement("span");
 		span.className = "CTDphoneNumber";
@@ -33,7 +34,6 @@ var telephonised = function(){
 			e.preventDefault();
 			return false;
 		});
-		parent.addClass('telephonised');
 	});
 };
 
