@@ -1,0 +1,39 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "styles.css" ],
+	  "js": [
+		"vendors/jquery.min.js",
+	  	"content.js"
+	  ],
+      "matches": ["*://*/*"]
+   } ],
+  "browser_action": {
+    "default_icon": "images/icon16.png",
+    "default_popup": "web/popup.html"
+  },
+   "content_security_policy": "script-src 'self' https://apis.google.com 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "http://www.ringcentral.com",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "RingCentral CTD",
+   "permissions": [ "storage", "https://api.ringcentral.com/", "https://ringcentral.zoom.us/", "https://ringcentral-officeathand-att.zoom.us/", "https://ringcentral-telus.zoom.us/", "https://ringcentral-bt.zoom.us/", "http://localhost/", "http://localhost:63342/", "http://mail.google.com/", "https://mail.google.com/",    "activeTab",
+    "tabs",
+    "webNavigation",
+    "*://*/*",
+    "https://ajax.googleapis.com/"
+ ],
+   "short_name": "__MSG_extShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.7.0",
+   "web_accessible_resources": [ "*.js", "*.css", "images/*.png", "web/*", "fonts/*" ]
+}

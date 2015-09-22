@@ -1,0 +1,200 @@
+.rc-lnk.rc-lnk-expand.collapse			{ background-image: url('icon/collapse_normal.png'); }
+.rc-lnk.rc-lnk-expand.collapse:hover		{ background-image: url('icon/collapse_hover.png'); }
+.rc-lnk.rc-lnk-expand.collapse:active		{ background-image: url('icon/collapse_pressed.png'); }
+.rc-lnk.rc-lnk-expand.collapse.active		{ background-image: url('icon/collapse_pressed.png'); }
+.rc-lnk.rc-lnk-expand.expand			{ background-image: url('icon/expand_normal.png'); }
+.rc-lnk.rc-lnk-expand.expand:hover		{ background-image: url('icon/expand_hover.png'); }
+.rc-lnk.rc-lnk-expand.expand:active		{ background-image: url('icon/expand_pressed.png'); }
+.rc-lnk.rc-lnk-expand.expand.active		{ background-image: url('icon/expand_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-dialer			{ background-image: url('icon/dialpad_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-dialer:hover		{ background-image: url('icon/dialpad_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-dialer:active		{ background-image: url('icon/dialpad_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-dialer.active		{ background-image: url('icon/dialpad_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-settings			{ background-image: url('icon/settings_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-settings:hover		{ background-image: url('icon/settings_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-settings:active		{ background-image: url('icon/settings_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-settings.active		{ background-image: url('icon/settings_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-new-rc-conference	{ background-image: url('icon/schedule_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-new-rc-conference:hover	{ background-image: url('icon/schedule_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-new-rc-conference:active	{ background-image: url('icon/schedule_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-new-rc-conference.active	{ background-image: url('icon/schedule_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-call-log			{ background-image: url('icon/call_log_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-call-log:hover		{ background-image: url('icon/call_log_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-call-log:active		{ background-image: url('icon/call_log_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-call-log.active		{ background-image: url('icon/call_log_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-messages			{ background-image: url('icon/message_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-messages:hover		{ background-image: url('icon/message_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-messages:active		{ background-image: url('icon/message_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-messages.active		{ background-image: url('icon/message_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-contacts			{ background-image: url('icon/contact_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-contacts:hover		{ background-image: url('icon/contact_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-contacts:active		{ background-image: url('icon/contact_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-contacts.active		{ background-image: url('icon/contact_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-new-sms			{ background-image: url('icon/sms_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-new-sms:hover		{ background-image: url('icon/sms_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-new-sms:active		{ background-image: url('icon/sms_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-new-sms.active		{ background-image: url('icon/sms_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-new-fax			{ background-image: url('icon/fax_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-new-fax:hover		{ background-image: url('icon/fax_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-new-fax:active		{ background-image: url('icon/fax_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-new-fax.active		{ background-image: url('icon/fax_pressed.png'); }
+
+#sidebar .rc-lnk.rc-lnk-hangouts			{ background-image: url('icon/hangouts_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-hangouts:hover		{ background-image: url('icon/hangouts_hover.png'); }
+
+#sidebar .rc-lnk.rc-lnk-new-conference		{ background-image: url('icon/conference_normal.png'); }
+#sidebar .rc-lnk.rc-lnk-new-conference:hover	{ background-image: url('icon/conference_hover.png'); }
+#sidebar .rc-lnk.rc-lnk-new-conference:active	{ background-image: url('icon/conference_pressed.png'); }
+#sidebar .rc-lnk.rc-lnk-new-conference.active	{ background-image: url('icon/conference_pressed.png'); }
+
+.contactpicker-button				{ background-image: url('icon/add_normal.png'); }
+.contactpicker-button:hover			{ background-image: url('icon/add_hover.png'); }
+.contactpicker-button:active			{ background-image: url('icon/add_pressed.png'); }
+
+.call-info .avatar				{ background-image: url('icon/incognito.png'); }
+.calls-wrap .avatar				{ background-image: url('icon/incognito.png'); }
+.message-info .avatar				{ background-image: url('icon/incognito.png'); }
+
+.rc-lnk-logout 					{ background-image: url('icon/logout.png'); }
+.rc-lnk-logout:hover				{ background-image: url('icon/logout_hover.png'); }
+.rc-lnk-logout:active				{ background-image: url('icon/logout_hover.png'); }
+
+.rc-lnk-status.Available				{ background-image: url('icon/status_online_big.png'); }
+.rc-lnk-status.Offline				{ background-image: url('icon/status_offline_big.png'); }
+.rc-lnk-status.Busy				{ background-image: url('icon/status_busy_big.png'); }
+
+.rc-input.image-input.image-calendar		{ background-image: url('icon/calendar.png'); }
+.rc-input.image-input.image-clock		{ background-image: url('icon/clock.png'); }
+
+.new-rc-conference .title .trigger.down		{ background-image: url('icon/dropdown_normal.png'); }
+.new-rc-conference .title:hover .trigger.down	{ background-image: url('icon/dropdown_hover.png'); }
+.new-rc-conference .title:active .trigger.down	{ background-image: url('icon/dropdown_pressed.png'); }
+
+.new-rc-conference .title .trigger.up		{ background-image: url('icon/dropup_normal.png'); }
+.new-rc-conference .title:hover .trigger.up	{ background-image: url('icon/dropup_hover.png'); }
+.new-rc-conference .title:active .trigger.up	{ background-image: url('icon/dropup_pressed.png'); }
+
+.msg-trigger					{ background-image: url('icon/question_normal.png'); }
+.msg-trigger:hover				{ background-image: url('icon/question_hover.png'); }
+.msg-trigger:active				{ background-image: url('icon/question_pressed.png'); }
+
+.rc-pane-header .trigger.up			{ background-image: url('icon/up_pressed.png'); }
+.rc-pane-header .trigger.down			{ background-image: url('icon/down_pressed.png'); }
+
+.dropdown-img					{ background-image: url('icon/dropdown.png'); }
+
+
+
+.search-box input[type=text]					{ background-image: url('icon/search.png'); }
+
+.rc-contact-picker-input .otherTo .recipient .close		{ background-image: url('icon/recipient-close.png'); }
+
+.rc-form-dropdown-container .rc-form-dropdown .dropdown-flag.us	{ background-image: url('icon/us_flag.png'); }
+.rc-form-dropdown-container .dropdown-menu .dropdown-flag.us	{ background-image: url('icon/us_flag.png'); }
+
+.rc-form-dropdown-container .rc-form-dropdown .dropdown-flag.uk	{ background-image: url('icon/uk_flag.png'); }
+.rc-form-dropdown-container .dropdown-menu .dropdown-flag.uk	{ background-image: url('icon/uk_flag.png'); }
+
+.rc-form-dropdown-container .rc-form-dropdown .dropdown-flag.ca	{ background-image: url('icon/cn_flag.png'); }
+.rc-form-dropdown-container .dropdown-menu .dropdown-flag.ca	{ background-image: url('icon/cn_flag.png'); }
+
+h1 .back								{ background-image: url('icon/back_normal.png'); }
+h1 .back:hover							{ background-image: url('icon/back_hover.png'); }
+
+input[type=radio]:after						{ background-image: url('icon/radiobutton_unchecked.png'); }
+input[type=radio]:checked:after					{ background-image: url('icon/radiobutton_checked.png'); }
+input[type=checkbox]:after					{ background-image: url('icon/checkbox_unchecked.png'); }
+input[type=checkbox]:checked:after				{ background-image: url('icon/checkbox_checked.png'); }
+
+.contact-info section .line .trigger-down			{ background-image: url('icon/down_normal.png'); }
+.contact-info section .line .trigger-down:hover			{ background-image: url('icon/down_hover.png'); }
+
+.contact-info section .line .trigger-up				{ background-image: url('icon/up_normal.png'); }
+.contact-info section .line .trigger-up:hover			{ background-image: url('icon/up_hover.png'); }
+
+.contact-info section .line .actions a.call			{ background-image: url('icon/voice_view_call_normal.png'); }
+
+.contact-info section .line .actions a.call:hover		{ background-image: url('icon/voice_view_call_hover.png'); }
+
+.contact-info section .line .actions a.sms			{ background-image: url('icon/msg_tred_sms_normal.png'); }
+
+.contact-info section .line .actions a.sms:hover			{ background-image: url('icon/msg_tred_sms_unreaded.png'); }
+
+.contact-info section .line .actions a.fax			{ background-image: url('icon/msg_tred_fax_normal.png'); }
+
+.contact-info section .line .actions a.fax:hover			{ background-image: url('icon/msg_tred_fax_unreaded.png'); }
+
+.calls-wrap .title .rc-collapse					{ background-image: url('icon/up_small_normal.png'); }
+.calls-wrap .title:hover .rc-collapse				{ background-image: url('icon/up_small_pressed.png'); }
+
+.calls-wrap .title .expand					{ background-image: url('icon/down_small_normal.png'); }
+.calls-wrap .title:hover .expand					{ background-image: url('icon/down_small_pressed.png'); }
+
+
+.messages .call-log-entry.message .call-missed			{ background-image: url('icon/call-missed.png'); }
+
+.messages .call-log-entry.message .call-active			{ background-image: url('icon/call-active.png'); }
+
+.messages .call-log-entry.message .call-outbound			{ background-image: url('icon/call-outbound.png'); }
+
+.messages .player .play						{ background-image: url('icon/play_normal.png'); }
+
+.messages .player .play:hover					{ background-image: url('icon/play_pressed.png'); }
+
+.messages .player .stop						{ background-image: url('icon/stop_normal.png'); }
+
+.messages .player .stop:hover					{ background-image: url('icon/stop_pressed.png'); }
+
+.messages .actions .fax-view					{ background-image: url('icon/msg_tred_fax_normal.png'); }
+
+.messages .actions .fax-view:hover				{ background-image: url('icon/msg_tred_fax_unreaded.png'); }
+
+.messages .actions .message-delete				{ background-image: url('icon/voice_view_block_normal.png'); }
+
+.messages .actions .message-delete:hover				{ background-image: url('icon/voice_view_block_pressed.png'); }
+
+.messages .actions .message-mark					{ background-image: url('icon/voice_view_mark_normal.png'); }
+
+.messages .actions .message-mark:hover				{ background-image: url('icon/voice_view_mark_block_pressed.png'); }
+
+.messages .actions .call						{ background-image: url('icon/voice_view_call_normal.png'); }
+
+.messages .actions .call:hover					{ background-image: url('icon/voice_view_call_hover.png'); }
+
+.messages .actions .sms						{ background-image: url('icon/msg_tred_sms_normal.png'); }
+
+.messages .actions .sms:hover					{ background-image: url('icon/msg_tred_sms_unreaded.png'); }
+
+.messages .message .message-type-sms				{ background-image: url('icon/msg_tred_sms_normal.png'); }
+.messages .message .message-type-conversation			{ background-image: url('icon/msg_tred_sms_normal.png'); }
+.messages .message .message-type-pager				{ background-image: url('icon/msg_tred_sms_normal.png'); }
+
+.messages .message.not-read .message-type-sms			{ background-image: url('icon/msg_tred_sms_unreaded.png'); }
+.messages .message.not-read .message-type-pager			{ background-image: url('icon/msg_tred_sms_unreaded.png'); }
+
+.messages .message .message-type-voicemail			{ background-image: url('icon/msg_tred_voicemail_normal.png'); }
+.messages .message.not-read .message-type-voicemail		{ background-image: url('icon/msg_tred_voicemail_unreaded.png'); }
+.messages .message .message-type-fax				{ background-image: url('icon/msg_tred_fax_normal.png'); }
+.messages .message.not-read .message-type-fax			{ background-image: url('icon/msg_tred_fax_unreaded.png'); }
+.messages .message .info						{ background-image: url('icon/info_big_normal.png'); }
+.messages .message .info:hover					{ background-image: url('icon/info_big_pressed.png'); }
+
+
+.rc-card .card-header .trigger.down{ background-image: url('icon/down_normal.png'); }
+.rc-card .card-header:hover .trigger.down{ background-image: url('icon/down_hover.png'); }
+.rc-card .card-header:active .trigger.down{ background-image: url('icon/down_pressed.png'); }
+
+.rc-card .card-header .trigger.up{ background-image: url('icon/up_normal.png'); }
+.rc-card .card-header:hover .trigger.up{ background-image: url('icon/up_hover.png'); }
+.rc-card .card-header:active .trigger.up{ background-image: url('icon/up_pressed.png'); }
+
+
+

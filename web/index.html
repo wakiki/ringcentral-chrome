@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8"></meta>
+        <meta name="description" content=""></meta>
+        <meta name="viewport" content="width=device-width"></meta>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="images/images.css" />
+
+        <link rel="stylesheet" href="styles/df29e086.main.css"/>
+
+    </head>
+    <body ng-app="openCtiApp" class="{{brand}}">
+
+        <div id="restrictions" style="opacity:0;" ng-hide="true">
+            <p>Unable to load application due to browser cookies and site data restrictions.</p>
+        </div>
+
+        <!-- Pubnub initial parameters -->
+        <div id="pubnub" ssl="on" style="display:none;"></div>
+
+        <div id="wrapper" ng-cloak>
+            <div id="header" ng-include="'views/header.html'"></div>
+            <div id="mainBody" ng-include="'views/main.html'"></div>
+            <aside id="sidebar" ng-include="'views/sidebar.html'" ng-click="sidebarClick($event);" ng-show="isAuthorized" ng-controller="SidebarCtrl"></aside>
+        </div>
+
+        <script src="scripts/08406813.vendor.js"></script>
+
+        <script src="scripts/ce0c508a.scripts.js"></script>
+
+
+    </body>
+</html>
